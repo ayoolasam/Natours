@@ -1,0 +1,162 @@
+
+$color-primary:#55c57a;
+$color-primary-light:#7ed56f;
+$color-primary-dark: #28b485;
+$color-black:#000; 
+$color-grey-dark:#777;
+$color-light-gray-1:#f7f7f7;
+$default-font:1.6rem;
+$color-secondary-light:#ffb900;
+$color-secondary-dark:#ff7730;
+$color-grey-dark-2:#999;
+
+
+$color-tertiary-light:#2998ff;
+
+$color-tertiary-dark:#5643fa;
+
+
+
+
+  .section-book{
+    padding:15rem 10rem;
+   
+    background-image: linear-gradient(to right bottom ,$color-primary-light,$color-primary-dark);
+  }
+
+  .book{
+    background-image: linear-gradient(105deg,rgba(#fff,0.9)0%,
+    rgba(#fff,0.9)50%,
+    transparent 50%),
+    url(../../img/nat-10.jpg);
+    background-size: cover;
+    height:50rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0.3rem;
+    box-shadow:0 1.5rem 4rem rgba($color-black,0.2 ) ;
+
+    &_form{
+      width: 50%;
+      padding: 6rem;
+     
+    }
+  }
+
+  .form{
+    &_group:not(:last-child){
+margin-bottom: 2rem;
+    }
+    &_input{
+    font-size: 1.5rem;
+    padding:1.5rem 2rem ;
+    border-radius: 2px;
+    background-color: rgba(#fff,0.5);
+    border: none;
+    font-family: inherit;
+    border-bottom: 3px solid transparent;
+    display: block;
+    width: 70%;
+    color: inherit;
+    transition: all .3s;
+
+    &:focus{
+      outline: none;
+      box-shadow: 0 1rem 2rem rgba($color-black,0.1);
+      border-bottom: 3px solid $color-primary-dark;
+       
+
+    }
+   
+  
+&:focus:invalid{
+  border-bottom: 3px solid orangered;
+}
+
+    &::-webkit-input-placeholder{
+      color:$color-grey-dark-2 
+      
+          }
+    
+
+
+    }
+   
+    &_label{
+transition: all 0.3s;
+font-size: 1.2rem;
+font-weight: 700;
+margin-left: 2rem;
+margin-top: 0.7rem;
+display: block;
+
+    }
+
+    &_input:placeholder-shown  +  &_label{
+opacity: 0;
+visibility: hidden;
+transform: translateY(-4rem);
+    }
+
+
+&_radio-group{
+  width: 40%;
+  display:inline-block ;
+}
+
+&_radio-label{
+  font-size: 1.4rem;
+  font-weight: 700;
+  cursor: pointer;
+  position: relative;
+  padding-left: 3rem;
+}
+&_radio-button{
+height: 2rem;
+width: 2rem;
+border-radius: 50%;
+border: 5px solid $color-primary-dark;
+display: inline-block;
+position: absolute;
+left:0;
+top:-0.4rem;
+
+ 
+  &::after{
+    height: 1rem;
+    width:1rem;
+    content: "";
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top:29%;
+    left:50%;
+    transform: translate(-50%);
+    background-color: $color-primary-dark;
+    opacity: 0 ;
+    transition:opacity .2s;
+  }
+  
+}
+&_radio-input:checked ~ &_radio-label &_radio-button::after{
+  opacity: 1;
+
+}
+&_radio-input{
+  display: none;
+}
+  }
+  .btn-new{
+    padding:1rem;
+    cursor: pointer;
+  
+    
+    font-size: 1.6rem;
+    font-family: inherit;
+    font-weight: 700;
+    border: none;
+    border-radius: 13px;
+    color:$color-grey-dark-2
+   
+
+  }

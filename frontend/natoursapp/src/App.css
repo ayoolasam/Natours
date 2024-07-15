@@ -1,0 +1,48 @@
+@import "./sass/abstracts/_mixins.scss";
+
+*::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+
+
+}
+
+html {
+  font-size: 100%;
+
+  /* @include respond(phone) {
+    font-size: 50%;
+  }
+
+  @include respond(tab-port) {
+    font-size: 60%;
+  }
+  @include respond(tab-land) {
+    font-size: 56.25%;
+  }
+
+  @include respond(big-desktop) {
+    font-size: 75%;
+  } */
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+  overflow-x: hidden;
+  padding: 30px;
+  box-sizing: border-box;
+
+  
+}
+
+@media (max-width:600px) {
+  body{
+    padding:0;
+  }
+}
