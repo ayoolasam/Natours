@@ -1,0 +1,62 @@
+$color-primary:#55c57a;
+$color-primary-light:#7ed56f;
+$color-primary-dark: #28b485;
+$color-black:#000; 
+$color-grey-dark:#777;
+$color-light-gray-1:#f7f7f7;
+$default-font:1.6rem;
+$color-secondary-light:#ffb900;
+$color-secondary-dark:#ff7730;
+$color-grey-dark-2:#999;
+
+
+$color-tertiary-light:#2998ff;
+
+$color-tertiary-dark:#5643fa;
+
+.section-features{
+  margin-top: -10rem;
+  padding:20rem 0;
+  background-image:linear-gradient(to right bottom,
+  rgba($color-primary-light,0.8) ,
+  rgba($color-primary-dark,0.8)),url('../../img/nat-4.jpg');
+  background-position: top;
+  background-size:cover ;
+  transform: skewY(-7deg);
+
+.rows{
+  display:flex;
+padding:0 2rem;
+gap:1.5rem;
+transform: skewY(7deg);
+
+  
+}
+}
+
+.feature-box{
+  background-color: rgba(#ffffff,0.8);
+  font-size: 1.3rem;
+  padding: 1.7rem;
+  text-align: center;
+  border-radius: 3px;
+  transition:transform 0.6;
+  box-shadow: 0 1.5rem 4rem tgba($color-black,0.15);
+  height: 29rem;
+  &:hover{
+  transform:translateY(-2rem) scale(1.03) ;
+  font-weight: 700;
+  }
+    &_icon{
+  font-size: 6rem;
+  display: inline-block;
+  margin-bottom: .5rem;
+  background-image:linear-gradient(to right,$color-primary-light,$color-primary-dark);
+  -webkit-background-clip: text;
+  color: transparent;
+  
+    }
+    &_text{
+  
+    }
+  }

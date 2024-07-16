@@ -23,7 +23,7 @@ $color-tertiary-dark:#5643fa;
     text-align: center;
   }
     .heading-secondary{
-    font-size: 3rem;
+    font-size: 2rem;
       font-family: 'lato',sans-serif;
       text-transform: uppercase;
       font-weight: 700;
@@ -55,13 +55,13 @@ $color-tertiary-dark:#5643fa;
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  width:30rem;
+  width:23rem;
   height:51rem;
   
   
   &__side{
     background-color: orange;
-    height:51rem;
+    height:53rem;
   overflow: hidden;
     transition: all 0.5s ease;
   
@@ -106,7 +106,7 @@ $color-tertiary-dark:#5643fa;
   }
   //front side styling
   &_picture {
-   height:23rem;
+   height:21rem;
     background-size: cover;
     background-blend-mode: screen;
   
@@ -197,7 +197,7 @@ $color-tertiary-dark:#5643fa;
     }
   
   .u-margin-top-100{
-    margin-top: 3rem;
+    margin-top: 6rem;
   
   }
   .btn-color{

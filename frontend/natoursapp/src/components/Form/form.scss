@@ -38,7 +38,7 @@ $color-tertiary-dark:#5643fa;
 
     &_form{
       width: 50%;
-      padding: 6rem;
+      padding: 4rem;
      
     }
   }
@@ -48,8 +48,8 @@ $color-tertiary-dark:#5643fa;
 margin-bottom: 2rem;
     }
     &_input{
-    font-size: 1.5rem;
-    padding:1.5rem 2rem ;
+    font-size: 1.4rem;
+    padding:1.3rem 0.8rem ;
     border-radius: 2px;
     background-color: rgba(#fff,0.5);
     border: none;
@@ -100,12 +100,14 @@ transform: translateY(-4rem);
 
 
 &_radio-group{
-  width: 40%;
+  width: 35%;
   display:inline-block ;
+  margin-right: 1rem;
+ 
 }
 
 &_radio-label{
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 700;
   cursor: pointer;
   position: relative;
@@ -149,6 +151,7 @@ top:-0.4rem;
   .btn-new{
     padding:1rem;
     cursor: pointer;
+    margin-top: 2rem;
   
     
     font-size: 1.6rem;
