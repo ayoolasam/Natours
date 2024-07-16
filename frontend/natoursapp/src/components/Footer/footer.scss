@@ -42,6 +42,7 @@ display: flex;
 font-size: 1.4rem;
 font-weight: 700;
 list-style: none;
+flex-wrap: wrap;
 
 
   }
@@ -87,5 +88,56 @@ padding:2rem;
   display: flex;
   margin-top: 9rem;
   justify-content: space-around;
+  flex-wrap: wrap;
  
+}
+
+@media (max-width:600px) {
+  .footer{
+    height: 1200px;
+ 
+    &_navigation{
+      border-top: none;
+      position: relative;
+    }
+    &-second{
+      border-top: none;
+      text-align: center;
+      margin-right: 1rem;
+    }
+    &_logo-box{
+    
+      position: absolute;
+      top:15%;
+      left:50%;
+      transform: translate(-50%,-50%);
+    }
+   &_list{
+    flex-direction: column;
+  
+    padding: 3rem;
+    text-align: center;
+  
+   
+   }
+   &_link{
+    &:link,
+    &:visited{
+      display: inline-block;
+     
+    }
+  }
+
+  &_copyright{
+   font-size: 1.6rem;
+   text-align: center;
+  //  background-color: #ff7730;
+   padding: 1rem;
+  //  display: flex;
+   
+   flex-direction: column;
+   width:100%;
+
+  }
+  }
 }

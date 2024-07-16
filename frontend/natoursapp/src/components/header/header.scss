@@ -25,7 +25,7 @@ $color-tertiary-dark:#5643fa;
 
   -webkit-clip-path:polygon(0 0,100% 0,100% 75vh ,0 100%);
   clip-path: polygon(0 0,100% 0,100% 75vh ,0 100%);
-  /* width:100%; */
+  //  width:100%; 
   
 } 
 .header__logo-box{
@@ -161,10 +161,37 @@ transform: translate(0);
 
 
 @media (max-width:600px) {
-  .heading-primary{
-    // font-size: ;
-  }
-  .header{
-    width:100%;
-  }
+  
+.header{
+  overflow-x: hidden;
+  text-align: center;
+  
+}
+.heading-primary-main{
+  font-size: 1.7rem;
+  letter-spacing: 1.6rem;
+  margin-left: 2rem;
+
+}
+.heading-primary-sub{
+font-size: 1rem;
+letter-spacing: 0.8rem
+}
+
+
+.heading-primary{
+  margin-bottom: 6rem;
+  width: 100%;
+  text-align: center;
+}
+.btn:link,
+.btn:visited{
+  padding: 1rem 3rem;
+  margin-bottom: 6rem;
+}
+.header__logo-box{
+  
+  left:1rem;
+  top:3rem;
+}
 }

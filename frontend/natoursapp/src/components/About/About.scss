@@ -19,6 +19,7 @@ $color-tertiary-dark:#5643fa;
   background-color:$color-light-gray-1;
   padding:25rem 0;
   margin-top: -20vh;
+
 .u-center-text{
   text-align: center;
 
@@ -193,4 +194,25 @@ transform: skewY(7deg);
 
   
 }
+}
+
+@media (max-width:600px) {
+  .section-about{
+    padding:11rem 0;
+    .heading-secondary{
+      font-size: 1.4rem;
+    }
+    .row{
+      flex-wrap: wrap;
+      height: 1300px;
+    }
+    .second-section{
+      display: none;
+    }
+    .first-section{
+      text-align: center;
+    }
+    
+}
+  
 }

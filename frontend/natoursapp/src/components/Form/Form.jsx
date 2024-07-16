@@ -13,19 +13,19 @@ export const Form = () => {
             <h2 className="heading-tertiary">START BOOKING NOW!</h2>
           </div>
       <form className="form" action="#">
-<div className="form_group">
+<div className="form_group formo">
  <input type="text" className="form_input" placeholder="Full name" id="name" required/>
  <label htmlFor="name" className="form_label">Full Name</label>
 </div>
-<div className="form_group">
+<div className="form_group formo">
  <input type="email" className="form_input" placeholder="Email" id="name" required/>
  <label htmlFor="email" className="form_label">Email address</label>
 </div>
-<div className="form_group">
+<div className="form_group  radio">
   <div className="form_radio-group">
     <input type="radio" className="form_radio-input" id="small" name="size"/>
     <label htmlFor="small" className="form_radio-label">
-      <span className="form_radio-button"></span>      Small tour group</label>
+      <span className="form_radio-button"></span>Small tour group</label>
   </div>
 
 

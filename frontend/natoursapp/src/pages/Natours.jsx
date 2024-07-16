@@ -28,7 +28,7 @@ const Natours = () => {
 
 
         
-        //card turning
+     
        <Card/>
 
 

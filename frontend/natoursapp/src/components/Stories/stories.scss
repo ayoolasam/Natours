@@ -142,3 +142,30 @@ backface-visibility: hidden;
   }
   }
 
+  @media (max-width:600px) {
+    .section-stories{
+      overflow-x: hidden;
+      .heading-secondary{
+        font-size: 1.5rem;
+      }
+       .story{
+width:70%;
+transform: skewY(0);
+flex-wrap: wrap;
+display: flex;
+&_text{
+  transform: skew(0);
+  text-align: center;
+ 
+}
+&_shape{
+  transform: skew(0);
+}
+      }
+     .heading-tertiary{
+      font-size: 1.5rem;
+      margin-top: 3rem;
+     }
+    }
+    
+  }

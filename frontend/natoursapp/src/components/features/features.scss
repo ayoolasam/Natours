@@ -29,6 +29,7 @@ $color-tertiary-dark:#5643fa;
 padding:0 2rem;
 gap:1.5rem;
 transform: skewY(7deg);
+flex-wrap: wrap;
 
   
 }
@@ -58,5 +59,14 @@ transform: skewY(7deg);
     }
     &_text{
   
+    }
+  }
+
+  @media (max-width:600px) {
+    .section-features{
+      overflow-x: hidden;
+      height:2100px;
+      padding:10rem 0;
+      overflow-y: hidden;
     }
   }

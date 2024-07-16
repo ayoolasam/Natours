@@ -205,3 +205,21 @@ $color-tertiary-dark:#5643fa;
     color:#fff;
   }
   
+
+  @media (max-width:600px) {
+    .section-tours{
+      overflow-x: hidden;
+      height:3300px;
+      margin-top: 5rem;
+      padding: 2rem;
+      // overflow-y: hidden;
+      
+    }
+    .rowss{
+      flex-wrap: wrap;
+    }
+    .tour{
+      margin-bottom: 5rem;
+      text-align: center;
+    }
+  }

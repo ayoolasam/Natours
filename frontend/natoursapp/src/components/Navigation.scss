@@ -168,3 +168,9 @@ top:-1rem;
       background-color: transparent;
       }
     }
+
+    @media (max-width:600px) {
+      .navigation{
+      display: none;
+      }
+    }
