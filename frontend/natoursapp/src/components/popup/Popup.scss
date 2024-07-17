@@ -105,3 +105,23 @@ transition: all .3s .2s;
   }
 
 }
+
+@media (max-width:600px) {
+  .popup{
+    // height: 50vh;
+    &_content{
+  width:80%;
+    }
+    &_text{
+      font-size: 1rem;
+      column-count:0 ;
+      column-gap:0;
+      column-rule:none;
+      hyphens:none;
+      display: flex;
+    }
+    &_left{
+ display: none;
+  }
+}
+}
