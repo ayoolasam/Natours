@@ -83,7 +83,7 @@ background-image:radial-gradient($color-primary-light,$color-primary-dark);
       background-image:linear-gradient(120deg,transparent 0%
       ,transparent 50%
       ,#fff 50%);
-      background-size: 220%;
+      background-size: 240%;
       transition: all .8s;
       display: inline-block;
       transform: translateX(2rem);
@@ -171,6 +171,79 @@ top:-1rem;
 
     @media (max-width:600px) {
       .navigation{
-      display: none;
+      // display: none;
+      
+      &_button{
+       
+        height:4rem;
+        width:4rem;
+        top:3rem;
+        right:2rem;
       }
+      &_nav{
+        
+      }
+      &_item{
+        
+        margin-right: 5rem;
+       
+       
+
+        display: flex;
+       
+  
+    
+      }
+      &_list{
+        padding: 2rem;
+      
+      
+       
+      
+      }
+  
+      &_icon{
+        margin-top: 2rem;
+      }
+      &_background{
+        height: 3rem;
+        width:3rem;
+        top:3.5rem;
+right:2.5rem;
     }
+
+
+
+    &_link{
+      &:link,
+      &:visited{
+  
+        font-size: 1.4rem;
+        font-weight: 300;
+       
+        width: 100%;
+       
+      }
+
+    }
+    &_icon{
+     
+    
+     
+   
+     &,
+     &::before,
+     &::after{
+      width:2.5rem;
+      height:2px;
+      background-color: $color-black;
+      display: inline-block;
+      
+     }
+
+   
+     }
+  }
+}
+    // }
+    
