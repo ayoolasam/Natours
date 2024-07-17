@@ -113,6 +113,7 @@ transition: all .3s .2s;
   width:90%;
   height: 70%;
   margin-bottom: 5rem;
+  padding: 0 0;
     }
     &_text{
       font-size: 1rem;
@@ -124,6 +125,11 @@ transition: all .3s .2s;
     }
     &_left{
  display: none;
+  }
+  &_right{
+    .heading-tertiary{
+      font-size: 1.2rem;
+    }
   }
 }
 }
