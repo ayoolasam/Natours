@@ -97,14 +97,20 @@ padding:2rem;
     height: 1200px;
  
     &_navigation{
-      border-top: none;
+      // border-top: none;
       position: relative;
+     
+      padding: 0;
     }
     &-second{
-      border-top: none;
+      // border-top: none;
       text-align: center;
-      margin-right: 1rem;
+      // margin-right: 1rem;
+      // background-color: #2998ff;
+      width:90%;
     }
+  
+    
     &_logo-box{
     
       position: absolute;
@@ -113,31 +119,25 @@ padding:2rem;
       transform: translate(-50%,-50%);
     }
    &_list{
-    flex-direction: column;
   
-    padding: 3rem;
-    text-align: center;
+   padding:0;
+display: flex;
+
+
   
    
    }
    &_link{
     &:link,
     &:visited{
-      display: inline-block;
+     font-size: 0.8rem;
      
     }
   }
 
   &_copyright{
-   font-size: 1.6rem;
-   text-align: center;
-  //  background-color: #ff7730;
-   padding: 1rem;
-  //  display: flex;
-   
-   flex-direction: column;
-   width:100%;
-
+//  background-color: #ff7730;
+ font-size: 0.8rem;
   }
   }
 }
