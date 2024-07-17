@@ -20,8 +20,8 @@ const Card = () => {
                   </span>
                 </h4>
                 <div className="tour-details">
-                  <ul>
-                    <li> 3 day tours</li>
+                  <ul className='tour-list'>
+                    <li className='tour-item'> 3 day tours</li>
                     <li> up to 30 people</li>
                     <li> 2 tour guides</li>
                     <li>Sleep in Cozy hotels</li>
@@ -51,8 +51,8 @@ const Card = () => {
                   </span>
                 </h4>
                 <div className="tour-details">
-                  <ul>
-                    <li> 3 day tours</li>
+                  <ul className='tour-list'>
+                    <li className='tour-item' > 3 day tours</li>
                     <li> up to 30 people</li>
                     <li> 2 tour guides</li>
                     <li>Sleep in Cozy hotels</li>
@@ -81,8 +81,8 @@ const Card = () => {
                   </span>
                 </h4>
                 <div className="tour-details">
-                  <ul>
-                    <li> 3 day tours</li>
+                  <ul className='tour-list'>
+                    <li className='tour-item'> 3 day tours</li>
                     <li> up to 30 people</li>
                     <li> 2 tour guides</li>
                     <li>Sleep in Cozy hotels</li>

@@ -166,14 +166,14 @@ transform: translate(0);
   overflow-x: hidden;
   text-align: center;
   &_text-box{
-    background-color: #ff7730;
-    width:30px;
+    // background-color: #ff7730;
+    color: #2998ff;
   }
 }
 .heading-primary-main{
   font-size: 1.7rem;
   letter-spacing: 1.6rem;
-  margin-left: 1rem;
+  margin-left: 0.8rem;
   // background-color: chartreuse;
 
 }

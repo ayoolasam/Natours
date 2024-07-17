@@ -94,13 +94,14 @@ padding:2rem;
 
 @media (max-width:600px) {
   .footer{
-    height: 1200px;
+    height: 500px;
  
     &_navigation{
       // border-top: none;
       position: relative;
      
       padding: 0;
+     
     }
     &-second{
       // border-top: none;
@@ -139,5 +140,12 @@ display: flex;
 //  background-color: #ff7730;
  font-size: 0.8rem;
   }
+  &-item{
+    display: inline-block;
+    &:not(:last-child) {
+    margin-right: 0.9rem;
   }
+}
+}
+
 }

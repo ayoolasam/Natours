@@ -221,6 +221,25 @@ $color-tertiary-dark:#5643fa;
     .tour{
       margin-bottom: 5rem;
       text-align: center;
+     &_heading-span{
      
+      padding:0.7rem 1rem;
+     }
+     &-details{
+      text-align: center;
+     
+     
+     }
+     &-list{
+      text-align: center;
+      
+      width:80%;
+      padding:1rem;
+      
+    }
+    &-item{
+      text-align: center;
+     
+    }
     }
   }
